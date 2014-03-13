@@ -15,9 +15,19 @@ Use this snippet to load it into your Pharo image:
 	
     (Smalltalk at: #ConfigurationOfBytes) load
 
-###Example
+###Printing
 
-    
+    1 kilobyte  asByteString = '1024 B'.
+    1 megabyte  asKilobyteString = '1024 KB'.
+    1 gigabyte  asMegabyteString = '1024 MB'.
+    1 terabyte  asGigabyteString = '1024 GB'.
+    1 petabyte  asTerabyteString = '1024 TB'.    1 exabyte  asPetabyteString = '1024 PB'.    1 zettabyte  asExabyteString = '1024 EB'.    1 yottabyte  asZettabyteString = '1024 ZB'.
+
+###Converting
+
+    1 kilobyte = (1024 bytes convertTo: ByteUnits kilobyte).    1 megabyte = (1024 kilobytes convertTo: ByteUnits megabyte).    1 gigabyte = (1024 megabytes convertTo: ByteUnits gigabyte).    1 terabyte = (1024 gigabytes convertTo: ByteUnits terabyte).    1 petabyte = (1024 terabytes convertTo: ByteUnits petabyte).    1 exabyte = (1024 petabytes convertTo: ByteUnits exabyte).    1 zettabyte = (1024 exabytes convertTo: ByteUnits zettabyte).    1 yottabyte = (1024 zettabytes convertTo: ByteUnits yottabyte).	###Comparing
+
+    (0.5 megabytes = 512 kilobytes).    (0.5 gigabytes = 512 megabytes).    (0.5 terabytes = 512 gigabytes).
 
 
 _Sorry for the brevity. Is not laziness, is business._
