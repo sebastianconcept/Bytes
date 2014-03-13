@@ -17,10 +17,7 @@ Use this snippet to load it into your Pharo image:
 
 ###Example
 
-    gateway := MERAprovaFacilGateway new
-    				merchantUsername: merchantUsername;
-    				beProduction;
-    				yourself. 
+    
 
 
 _Sorry for the brevity. Is not laziness, is business._
