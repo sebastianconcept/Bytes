@@ -1,0 +1,14 @@
+{
+	"category" : "Bytes-Core",
+	"classinstvars" : [
+		"instance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"units" ],
+	"name" : "ByteUnits",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

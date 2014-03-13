@@ -1,0 +1,14 @@
+{
+	"category" : "Bytes-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BytesTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
